@@ -3,6 +3,7 @@ import "./App.css";
 import Brand from "./Components/Brand/Brand";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
+import Service from "./Components/Service/Service";
 import WhatIsGPT3 from "./Components/WhatIsGPT3/WhatIsGPT3";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       </div>
       <Brand />
       <WhatIsGPT3 />
+      <Service />
     </>
   );
 }

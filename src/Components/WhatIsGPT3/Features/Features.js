@@ -1,5 +1,5 @@
 import React from "react";
-import { featuresData } from "../../../Data/FeatureData";
+import { featuresData } from "../../../Data/Data";
 import "./features.css";
 import FeaturesItems from "./FeaturesItems";
 

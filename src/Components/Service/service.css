@@ -1,0 +1,70 @@
+.service-section {
+  position: relative;
+  color: white;
+  margin: 55px 0;
+}
+.service-qoute-title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+.service-qoute-subtitle {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff8a71;
+}
+.service-title {
+  position: relative;
+  padding-top: 5px;
+  font-size: 18px;
+}
+.service-title::before {
+  position: absolute;
+  content: "";
+  width: 38px;
+  height: 3px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  top: -4px;
+}
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86px;
+}
+.service-qouite {
+  max-width: 37%;
+  margin-right: 105px;
+}
+.service-content {
+  font-size: 14px;
+}
+.service-item {
+  margin-bottom: 34px;
+}
+
+@media screen and (max-width: 550px) {
+  .service-container {
+    display: block;
+    margin-top: 27px;
+  }
+  .service-qouite {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  .service-qoute-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .padding {
+    margin: 10px 0;
+  }
+}
