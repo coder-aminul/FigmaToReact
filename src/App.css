@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: var(--color-bg);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: unset;
+  text-decoration: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.offcanvas.offcanvas-end {
+  width: 300px !important;
+}
+/*Button Css*/
+.btn-top {
+  width: 152px !important;
+  height: 50px !important;
+  border-radius: 5px !important;
+  font-family: var(--font-family) !important;
+  cursor: pointer !important;
+  outline: none !important;
+  color: #fff !important;
+  border: 0 !important;
+  font-weight: 500 !important;
+  font-size: 17px;
+  transition: 0.5s;
+}
+.btn-orange {
+  background: #ff4820;
   color: white;
 }
+.btn-orange:hover {
+  scale: 0.9;
+}
+.gredient-bg {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 3% 17%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
-.App-link {
-  color: #61dafb;
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 3% 17%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 3% 17%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 3% 17%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 17%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+}
+.gredient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.scale-down-center {
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.containers {
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+.bg-none {
+  background: none !important;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-fwd-center {
+  -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation slide-fwd-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .btn-top {
+    width: 100px !important;
+    height: 30px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .btn-top {
+    width: 50px !important;
+    height: 30px !important;
+    font-weight: 500 !important;
+    font-size: 10px;
   }
 }

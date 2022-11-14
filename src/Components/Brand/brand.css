@@ -1,0 +1,30 @@
+.brand-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 65%;
+  margin: 0 auto;
+}
+.owl-item {
+  width: 130px !important;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  max-width: 96px !important;
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 550px) {
+  .brand-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 366px) {
+}
+@media screen and (max-width: 280px) {
+}
