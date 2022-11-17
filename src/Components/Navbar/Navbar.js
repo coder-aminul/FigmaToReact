@@ -10,7 +10,7 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="containers">
-      <nav className="navbar navbar-expand-lg navbar-dark sticky-top position-relative">
+      <nav className="navbar navbar-expand-lg navbar-dark sticky-top position-relative mynabs">
         <a className="navbar-brand" href="/">
           <img src={Logo} alt="logo" />
         </a>

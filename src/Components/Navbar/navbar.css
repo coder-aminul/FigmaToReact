@@ -18,10 +18,16 @@
 .mynav {
   margin-left: 100px;
 }
+.mynabs {
+  padding-top: 22px;
+}
 
 @media screen and (max-width: 1050px) {
   .mynav {
     margin-left: 15px;
+  }
+  .mynabs {
+    padding-top: 22px;
   }
   button.navbar-toggler {
     position: absolute;
@@ -37,6 +43,9 @@
 @media screen and (max-width: 550px) {
   .navbar-brand img {
     max-width: 60px !important;
+  }
+  .mynabs {
+    padding-top: 5px;
   }
   .mynav {
     margin-left: 15px;

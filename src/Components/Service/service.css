@@ -42,7 +42,12 @@
   margin-right: 105px;
 }
 .service-content {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 24px;
+  color: #81afdd;
 }
 .service-item {
   margin-bottom: 34px;

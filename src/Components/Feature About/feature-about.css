@@ -1,0 +1,119 @@
+/*
+Feature About Section Css
+*/
+
+.about-feature-section {
+  margin-top: 144px;
+  margin-bottom: 126px;
+}
+
+/*
+============================
+Feature Content Releted Css
+============================
+*/
+.about-content {
+  margin-top: 50px;
+}
+.feature-title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin-top: 15px;
+}
+.feture-top-title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #71e5ff;
+}
+.feature-about-text {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81afdd;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.feature-subtext {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff8a71;
+}
+
+/*
+=======================
+Feature Illastation CSS
+=======================
+*/
+.illastation {
+  position: relative;
+}
+.cricle-top {
+  position: absolute;
+  z-index: 0;
+  top: -174px;
+  left: 70px;
+  width: 325.95px;
+  height: 325.95px;
+}
+.section-bg {
+  position: absolute;
+  width: 367.31px;
+  height: 402.05px;
+  background: #042c54;
+  border-radius: 0px 183.655px 0px 0px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.about-person {
+  position: absolute;
+  width: 474.85px;
+  height: 500px;
+  top: -97px;
+  left: 62px;
+  z-index: 1;
+}
+.message-button {
+  position: absolute;
+  width: 74.45px;
+  height: 74.45px;
+  background: #042c54;
+  border-radius: 16.5455px;
+  border: 0;
+  color: white;
+  top: -128px;
+  left: 59px;
+  font-size: 25px;
+}
+
+.apps-button {
+  position: absolute;
+  width: 173.73px;
+  height: 74.45px;
+  background: #f77458;
+  border-radius: 16.5455px;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: var(--font-family);
+  border: none;
+  left: 298px;
+  z-index: 0;
+  top: -25px;
+  transition: 0.5s;
+}
+.apps-button:hover {
+  scale: 0.1;
+}
