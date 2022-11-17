@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutContent() {
   return (
-    <div className="col-lg-6 about-content">
+    <div className="col-lg-6 col-sm-12 about-content">
       <span className="feture-top-title">
         Request Early Access to Get Started
       </span>

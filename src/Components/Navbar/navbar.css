@@ -41,6 +41,9 @@
 }
 
 @media screen and (max-width: 550px) {
+  .offcanvas-body {
+    overflow: hidden;
+  }
   .navbar-brand img {
     max-width: 60px !important;
   }
