@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Blog from "./Components/Blog/Blog";
 import Brand from "./Components/Brand/Brand";
 import CtaSection from "./Components/CTA/CtaSection";
 import FeatureAbout from "./Components/Feature About/FeatureAbout";
@@ -20,6 +21,7 @@ export default function App() {
       <Service />
       <FeatureAbout />
       <CtaSection />
+      <Blog />
     </>
   );
 }

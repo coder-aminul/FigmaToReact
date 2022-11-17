@@ -95,8 +95,12 @@ Feature Illastation CSS
   top: -128px;
   left: 59px;
   font-size: 25px;
+  z-index: 1;
+  transition: 0.8s;
 }
-
+.message-button:hover {
+  transform: scale(0.9);
+}
 .apps-button {
   position: absolute;
   width: 173.73px;

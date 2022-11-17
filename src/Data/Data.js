@@ -45,3 +45,46 @@ export const serviceData = [
       "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
 ];
+
+export const blogItem = [
+  {
+    id: 1,
+    date: "Sep 26, 2021",
+    image: "assets/blog01.png",
+    title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
+    description:
+      "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
+  {
+    id: 2,
+    date: "Sep 26, 2021",
+    image: "assets/blog02.png",
+    title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
+    description:
+      "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
+  {
+    id: 3,
+    date: "Sep 26, 2021",
+    image: "assets/blog03.png",
+    title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
+    description:
+      "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
+  {
+    id: 4,
+    date: "Sep 26, 2021",
+    image: "assets/blog04.png",
+    title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
+    description:
+      "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
+  {
+    id: 5,
+    date: "Sep 28, 2021",
+    image: "assets/blog05.png",
+    title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
+    description:
+      "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+  },
+];
