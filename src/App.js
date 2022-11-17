@@ -4,6 +4,7 @@ import Blog from "./Components/Blog/Blog";
 import Brand from "./Components/Brand/Brand";
 import CtaSection from "./Components/CTA/CtaSection";
 import FeatureAbout from "./Components/Feature About/FeatureAbout";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Service from "./Components/Service/Service";
@@ -22,6 +23,7 @@ export default function App() {
       <FeatureAbout />
       <CtaSection />
       <Blog />
+      <Footer />
     </>
   );
 }

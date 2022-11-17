@@ -1,0 +1,36 @@
+.footer-section {
+  margin-top: 150px;
+  background: #031b34;
+}
+.footer-top {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px;
+}
+.footer-title {
+  font-family: var(--font=family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+.button-footer {
+  padding: 15px 18px;
+  border: 1px solid #fff;
+  background: #031b34;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: var(--font-family);
+  transition: 0.8s;
+}
+.button-footer:hover {
+  transform: translateY(-5px);
+}
