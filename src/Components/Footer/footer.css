@@ -34,3 +34,69 @@
 .button-footer:hover {
   transform: translateY(-5px);
 }
+
+.footer-bottom {
+  margin-top: 80px;
+  padding-bottom: 25px;
+}
+.copywrite {
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  padding-top: 25px;
+}
+.footer-about {
+  display: flex;
+  align-items: center;
+}
+.company-about {
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.footer-nav-title {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.footer-ul {
+  padding-left: 0rem !important;
+  margin-top: 25px;
+}
+.footer-nav-item {
+  color: #fff !important;
+  list-style: none;
+}
+.footer-nav-link {
+  display: block;
+  padding-top: 12px;
+  color: #fff;
+}
+.footer-nav-link > svg {
+  color: #fff;
+}
+.footer-nav-link:hover {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: 0.8s;
+}
+
+@media screen and (max-width: 550px) {
+  .footer-section {
+    margin-top: 72px;
+    background: #031b34;
+  }
+  .footer-top {
+    padding-top: 54px;
+    padding-bottom: 11px;
+  }
+  .footer-title {
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 42px;
+    text-align: center;
+  }
+}

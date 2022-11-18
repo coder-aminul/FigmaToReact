@@ -1,3 +1,4 @@
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 export const featuresData = [
   {
     id: 1,
@@ -87,4 +88,25 @@ export const blogItem = [
     description:
       "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
+];
+
+export const footerLinks = [
+  { id: 0, to: "/overons", text: "Overons" },
+  { id: 1, to: "/social-media", text: "Social Media" },
+  { id: 2, to: "/counters", text: "Counters" },
+  { id: 3, to: "/contact", text: "Contact" },
+];
+export const footerNav = [
+  { id: 0, to: "/terms", text: "Terms & Conditions" },
+  { id: 1, to: "/privacy-policy", text: "Privacy Policy" },
+  { id: 2, to: "/contact", text: "Contact" },
+];
+export const footercontact = [
+  {
+    id: 0,
+    text: "Crechterwoord K12 182 DK Alknjkcb",
+    icon: <FaMapMarkerAlt />,
+  },
+  { id: 1, text: "085-132567", icon: <FaPhoneAlt /> },
+  { id: 2, text: "info@payme.net", icon: <FaEnvelope /> },
 ];

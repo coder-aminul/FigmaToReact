@@ -6,7 +6,12 @@ import ServiceQoute from "./ServiceQoute";
 
 export default function Service() {
   return (
-    <section className="service-section">
+    <section
+      className="service-section"
+      id="service"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="containers">
         <div className="service-container">
           <ServiceQoute />

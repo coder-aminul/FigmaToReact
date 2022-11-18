@@ -9,7 +9,7 @@ export default function AboutIllastation() {
         <img src={Circle} alt="Circle" height={`220`} className="cricle-top" />
         <div className="section-bg">
           <img src={Person} alt="Person" className="about-person" />
-          <button className="message-button">
+          <button className="message-button" data-aos="zoom-in">
             <BsFillChatLeftTextFill />
           </button>
           <button className="apps-button">

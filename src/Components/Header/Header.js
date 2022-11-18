@@ -7,7 +7,11 @@ import Visitos from "./Visitos";
 
 export default function Header() {
   return (
-    <section className="header-section containers">
+    <section
+      className="header-section containers"
+      id="home"
+      data-aos="fade-right"
+    >
       <div className=" row my-4">
         <div className="col-sm-12 col-md-12 col-lg-7">
           <div className="header-content">

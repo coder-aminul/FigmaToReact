@@ -1,11 +1,15 @@
 import React from "react";
 
 export default function BlogItem({ content }) {
-  console.log(content);
   const { date, title, image } = content;
   return (
     <>
-      <div className="blog-item">
+      <div
+        className="blog-item"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <img src={image} alt="Blogimage" />
         <div className="blog-card-content">
           <span className="blog-date">{date}</span>

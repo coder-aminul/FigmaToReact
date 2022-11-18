@@ -3,7 +3,12 @@ import "./ctasection.css";
 
 export default function CtaSection() {
   return (
-    <section className="cta-section">
+    <section
+      className="cta-section"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div className="containers">
         <div className="row">
           <div className="cta-container">

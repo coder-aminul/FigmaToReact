@@ -7,7 +7,16 @@
   font-weight: 500;
 }
 .nav-link:hover {
-  color: var(--color-subtext);
+  background-image: var(--gradient-text);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
 }
 .nav-btn-group {
   display: flex;
@@ -20,6 +29,14 @@
 }
 .mynabs {
   padding-top: 22px;
+}
+.stickyMenu {
+  transition: 0.6s ease-in-out;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  margin: -34px auto;
+  background: #040c18;
 }
 
 @media screen and (max-width: 1050px) {
@@ -41,6 +58,14 @@
 }
 
 @media screen and (max-width: 550px) {
+  .stickyMenu {
+    transition: 0.6s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    margin: -34px auto;
+    background: #040c18;
+  }
   .offcanvas-body {
     overflow: hidden;
   }
@@ -48,7 +73,7 @@
     max-width: 60px !important;
   }
   .mynabs {
-    padding-top: 5px;
+    padding-top: 15px;
   }
   .mynav {
     margin-left: 15px;

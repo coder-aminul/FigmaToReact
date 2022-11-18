@@ -6,7 +6,12 @@ import "./whatisgpt3.css";
 
 export default function WhatIsGPT3() {
   return (
-    <section className="gpt3-section my-5">
+    <section
+      className="gpt3-section my-5"
+      id="what-is-gpt"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="containers gpt-bg shadow-sm">
         <div className="gpt-containers position-relative">
           <Gpt3Title />
