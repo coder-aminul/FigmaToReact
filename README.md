@@ -10,13 +10,14 @@
 - 💬 Ask me about **JavaScript, TypeScript, React, React Native,Wordpress,PSD TO REACT,PSD TO HTML,Figma To React,Figma To HTML**
 
 - 📫 How to reach me **coders.aminul@gmail.com**
-
-<img src="./src/assets/screenshort.png"/>
+- 📫 Project Link [https://gpt3-reactdev.netlify.app](https://gpt3-reactdev.netlify.app)
+  <img src="./src/assets/screenshort.png"/>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://fb.com/reaj.info" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="reaj.info" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/uc9rax8agiyuq-3_pdgki0hg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="uc9rax8agiyuq-3_pdgki0hg" height="30" width="40" /></a>
+<a href="https://www.upwork.com/freelancers/~0136c0672a4db44146" target="blank"><img align="center" src="./src/assets/upwork.svg" alt="uc9rax8agiyuq-3_pdgki0hg" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
